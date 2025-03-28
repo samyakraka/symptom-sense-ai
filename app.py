@@ -8,7 +8,7 @@ from datetime import datetime
 app = Flask(__name__)
 CORS(app, resources={
     r"/api/*": {
-        "origins": ["http://localhost:3000", "https://your-vercel-app.vercel.app"],
+        "origins": ["http://localhost:3000", "https://medibites11.vercel.app/"],
         "methods": ["GET", "POST", "OPTIONS"],
         "allow_headers": ["Content-Type"]
     }
